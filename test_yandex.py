@@ -1,7 +1,7 @@
 from pages.main_page import MainPage
 import time
 
-#Для запуска теста используй команду "pytest -s -v --browser_name=chrome test_yandex.py"
+#Для запуска теста используйте команду "pytest -s -v --browser_name=chrome test_yandex.py"
 
 def test_open_yandex(browser):
     link = "https://yandex.ru/"
