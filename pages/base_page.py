@@ -13,7 +13,7 @@ class BasePage():
         self.url = url
         self.browser.implicitly_wait(timeout)
 
-    def is_element_present(self, how, what): #  наличие элемента
+    def is_element_present(self, how, what): #  наличие элементаа
         try:
             self.browser.find_element(how, what)
         except (NoSuchElementException):
